@@ -1,0 +1,155 @@
+@font-face {
+    font-family: 'jiyunotsubasa';
+    src: url(../fonts/JiyunoTsubasa.ttf);
+}
+
+body {
+    margin: 0;
+    background: black;
+    background-image: url(../img/0001.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-attachment: fixed;
+}
+
+#razerLogo {
+    width: 120px;
+    height: auto;
+    padding-top: 23px;
+}
+
+#header {
+    z-index: 1;
+    color: greenyellow;
+    font-family: Comic Sans MS;
+    font-size: 100px;
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+.button {
+    margin-top: 70px;
+}
+
+.button:hover {
+    letter-spacing: 2px;
+}
+
+.glow {
+    text-shadow: 2px 2px 10px #00ff00, -2px -2px 10px #00ff00, 1px -1px 100px #00ff00;
+}
+
+.text {
+    color: greenyellow;
+    font-family: jiyunotsubasa,"メイリオ";
+}
+
+.header {
+    float: left;
+}
+
+.hwTX {
+    font-size: 130px;
+}
+
+.hwIM {
+    float: right;
+    height: 30%;
+    animation-duration: 2s;
+    animation-name: slideinFromright;
+}
+
+#kbTX {
+    position: relative;
+    top: 230px;
+    animation-duration: 2s;
+    animation-name: slideinFromleft;
+}
+
+#kb {
+    margin-top: -150px;
+}
+
+.leftSide {
+    float: left;
+}
+
+.rightSide {}
+
+.bunsyo {
+    font-weight: 800;
+    margin-top: 5px;
+}
+
+.span {
+    margin-top: 50px;
+}
+
+#typer {
+    width: 100%;
+    margin-top: 25px;
+}
+
+#rainbow {
+    width: 100%;
+}
+
+#click {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.container {
+    margin-top: 30px;
+}
+
+.navbar-default {
+    background-color: black
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: greenyellow;
+    font-family: Comic Sans MS;
+    font-size: 20px;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: black;
+}
+
+#mTX {
+    position: relative;
+    top: 230px;
+    animation-duration: 2s;
+    animation-name: slideinFromleft;
+}
+
+#seido {
+    margin: -10px;
+}
+
+#last {
+    padding-bottom: 50px;
+}
+
+a:hover img {
+    box-shadow: 2px 2px 30px -5px #00ff00, -2px -2px 30px -5px #00ff00;
+}
+
+@keyframes slideinFromleft {
+    from {
+        margin-left: 100%;
+    }
+    to {
+        margin-left: 0%;
+    }
+}
+
+@keyframes slideinFromright {
+    from {
+        margin-right: 100%;
+    }
+    to {
+        margin-right: 0%;
+    }
+}
